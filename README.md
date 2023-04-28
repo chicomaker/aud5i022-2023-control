@@ -10,11 +10,39 @@
 - imágenes
 - conclusiones
 
+
+¿De que trata el Proyecto?:
+
+Desarrollamos un circuito que tiene 3 leds, 2 que son rojos y uno verde,.Cuando inicia el codigo los leds estan un modo de espera, en donde la luz pasa por todos los leds, como en una pantalla de espera, cuando se aprieta el boton puede entrar en uno de los 2 modos, el primer modo es el que se obtiene cuando se aprieta el boton en alguno de los leds rojos, este modo lo que hace es que intercambian el encendido solo los leds rojos, mientras que si apretamos el boton cuando la luz esta en el verde, se inicia el modo de semaforo de formula uno, en donde se prende primero el led rojo superior, se enciendo el inferio y luego se apagan para que se prenda el led verde, al igual que un semaforo de formula uno.
+
+
+Materiales:
+-2 leds rojos
+-1 led verde
+-1 potenciometro
+-1 boton pulsador
+-4 resistencia de 1K
+-1 protoboard
+- aprox 9 cables
+
+
+Conecciones:
+
+-Para facilitar el proceso de hacer las conecciones vamos a conectar los 5v y un gnd del arduino a los positivos y negativos de la protoboard
+
+-los leds deben colocarse en la protoboard y conectar sus polos negativos con resistencias al negativo de la protoboard
+
+-los positivos de los leds los conectaremos a los pines digitales 13,12 y 11.
+
+-conectaremos la primera patita del potenciometro a 5v y la ultima a gnd, mientras que la patita de al medio debe conectarse al pin A0 del arduino
+
+-El boton lo pondremos al final de la protoboard para que sea más facil presionarlo sin tomar con ninguno de los cables
+
+-Conectaremos una de las patitas del boton al 5v
+conectaremos la otra patita del boton al gnd, pero dejaremos un espacio entre medio en la protoboard porque ahi conectaremos un cable que va hacia el pin digital 2
+
 Conclusiones: 
-
 La experiencia en clases nos inspiro para realizar este proyecto, decidimos integrar todo lo que practicamos a medida que vanzaba el curso,.
-Desarrollamos in circuito que tiene 3 leds, 2 que son rojos y uno verde,.Cuando inicia el codigo los leds estan un modo de espera, en donde la luz pasa por todos los leds, como en una pantalla de espera, cuando se aprieta el boton puede entrar en uno de los 2 modos, el primer modo es el que se obtiene cuando se aprieta el boton en alguno de los leds rojos, este modo lo que hace es que intercambian el encendido solo los leds rojos, mientras que si apretamos el boton cuando la luz esta en el verde, se inicia el modo de semaforo de formula uno, en donde se prende primero el led rojo superior, se enciendo el inferio y luego se apagan para que se prenda el led verde, al igual que un semaforo de formula uno.
-
 Desarrollar este proyecto fue muy divertido aunque nos costo un poco conectar el potenciometro porque nos confundiamos de coneccion entre pin digital y analogo, o tambien porque Diego es dislexico y a veces escribe mal alguna palabra en el codigo.
 
 Pese a las dificultados aprendimos mucho y conseguimos que el proyecto funcionara perfectamente.
